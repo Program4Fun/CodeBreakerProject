@@ -82,7 +82,7 @@ function guess() {
 function showAnswer(won) {
     var codeLabel = document.getElementById('code')
 
-    codeLabel.innerHTML = "<strong>" + answer.value + "</strong>"
+    codeLabel.innerHTML = answer.value
 
     if (won) {
         codeLabel.className += ' success'
